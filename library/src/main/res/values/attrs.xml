@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FunnyTimeLine">
+        <attr name="lightColor" format="color"/>
+        <attr name="normalColor" format="color"/>
+        <attr name="stressColor" format="color"/>
+        <attr name="showNums" format="integer"/>
+        <attr name="timeKind" format="integer"/>
+        <attr name="time" format="integer"/>
+    </declare-styleable>
+</resources>

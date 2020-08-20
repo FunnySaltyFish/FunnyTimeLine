@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:funny="http://schemas.android.com/apk/res-auto">
+
+    <com.funny.funnytimeline.FunnyTimeLine
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        funny:lightColor="#aa000000"
+        funny:normalColor="#dd000000"
+        funny:stressColor="#ff000000"
+        funny:showNums="7"
+        funny:time="16000"
+        funny:timeKind="0"
+        android:id="@+id/timeline"
+        />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="548dp"
+        android:layout_below="@id/timeline" >
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/set_ms" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/set_min" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/set_h" />
+    </RadioGroup>
+
+</RelativeLayout>

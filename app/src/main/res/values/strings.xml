@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FunnyTimeLineTest</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="set_ms">切换单位为秒</string>
+    <string name="set_min">切换单位为分</string>
+    <string name="set_h">修改单位为小时</string>
+</resources>
